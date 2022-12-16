@@ -20,7 +20,9 @@ public class DatabaseFiller {
     public void initialUsers() {
         productRepository.save(createProduct("Headphones", 10));
         productRepository.save(createProduct("Keyboard", 20));
-        productRepository.save(createProduct("Monitor", 50));
+        productRepository.save(createProduct("Vinyl", 25));
+        productRepository.save(createProduct("Sound card", 40));
+        productRepository.save(createProduct("Monitor", 150));
     }
 
     private Product createProduct(String name, Integer price) {
